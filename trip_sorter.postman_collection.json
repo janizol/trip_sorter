@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "127.0.0.1:8080",
+		"_postman_id": "56cbe238-e2ce-6a2f-aebf-5c6f25837ede",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8080/rest/index",
+			"request": {
+				"url": "127.0.0.1:8080/html/rest.php",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sorter\":{\n\t\"1\":\"Take the airport bus from Barcelona to Gerona Airport. No seat assignment.\",\n\t\"2\":\"You have arrived at your final destination.\",\n\t\"3\":\"From Stockholm, take flight SK22 to New York JFK. Gate 22, seat 7B.Baggage will we automatically transferred from your last leg.\",\n\t\"4\":\"Take train 78A from Madrid to Barcelona. Sit in seat 45B.\",\n\t\"5\":\"From Gerona Airport, take flight SK455 to Stockholm. Gate 45B, seat 3A. Baggage drop at ticket counter 344.\"\n}}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
